@@ -7,11 +7,11 @@ const Register = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="hero bg-base-200 min-h-screen mb-4 ">
-        <div className="card bg-base-100 w-[80%] shrink-0 shadow-2xl mx-auto">
+      <div className="hero bg-[#dff9fb] rounded min-h-screen mb-4 ">
+        <div className="card bg-base-100 w-[60%] shrink-0 shadow-2xl mx-auto">
           <form className="card-body h-[600px] justify-center">
-            <h2 className="text-center text-4xl font-bold text-green-950 mb-3">
-              Please Register
+            <h2 className="text-center text-3xl font-bold text-green-950 mb-3">
+             Registration for Free!
             </h2>
             <div className="form-control w-[60%] mx-auto">
               <label className="label">
@@ -65,8 +65,8 @@ const Register = () => {
               <button className="btn btn-primary">Register</button>
             </div>
             <p className="text-lg text-center font-bold">
-              Have you already an account Please{" "}
-              <Link to="/login" className="text-blue-900 font-bold">
+              Have you already an account? Please{" "}
+              <Link to="/login" className="text-blue-500 font-bold hover:underline">
                 login
               </Link>
             </p>
